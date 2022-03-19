@@ -11,6 +11,7 @@ Zmienne środowiskowe
 zmienne możemy ustawić w pliku docker-compose.yml
 
 DEFAULT_PAGINATION_CLASS - typ paginacji
+
 PAGE_SIZE - rozmiar strony
 
 Użytkowanie
