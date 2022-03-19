@@ -140,7 +140,7 @@ CELERY_BROKER_URL = 'redis://redis:6379/0'
 CELERY_BEAT_SCHEDULE = {
     'collect_data': {
         'task': 'search.tasks.collect_data',
-        'schedule': 60,
+        'schedule': 60*60*24,
         'args': [''],
         'options': {
             'expires': 60 * 5,
